@@ -5,11 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler's Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Weclome to my BI Site</h1>
     <img src="headshot.png" height="200px">
     <p> welcome to my place of showing you analytics,
          come back soon to see what changes I make</p>
+
+         <script src="https://code.highcharts.com/highcharts.js"></script>
+         <script src="https://code.highcharts.com/modules/series-label.js"></script>
+         <script src="https://code.highcharts.com/modules/exporting.js"></script>
+         <script src="https://code.highcharts.com/modules/export-data.js"></script>
+         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+         
+         <figure class="highcharts-figure">
+             <div id="linecontainer"></div>
+             <p class="highcharts-description">
+                 Basic line chart showing trends in a dataset. This chart includes the
+                 <code>series-label</code> module, which adds a label to each line for
+                 enhanced readability.
+             </p>
+             <script src="line.js"></script>
+         </figure>
+         
+
+         <figure class="highcharts-figure">
+            <div id="areacontainer"></div>
+            <p class="highcharts-description">
+                A demo showing a stacked area chart, also sometimes referred to as a
+                mountain chart. In a stacked chart, the data series values are added
+                together to make up a total.
+            </p>
+            <script src="area.js"></script>
+        </figure>
+         
+         
+
+
+
+
+
 </body>
 </html>
