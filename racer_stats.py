@@ -9,7 +9,7 @@ st.write(' # Mariokart *Stats Website*')
 st.write('MarioKart *Stats Website*')
 
 
-link = '[GitHub](http://github.com)'
+link = '[Back to BI Site](https://tylerbarty.github.io/TylersWebsite/)'
 st.markdown(link, unsafe_allow_html=True)
 
 df_racer = pd.read_csv('data/racer_stats.csv')
