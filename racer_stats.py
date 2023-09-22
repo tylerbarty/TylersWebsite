@@ -1,10 +1,17 @@
 import streamlit as st
 import pandas as pd
 
+
+
 st.markdown("# Racer Page 🎈")
 st.sidebar.markdown("# This is Racer Page 🎈")
 st.write(' # Mariokart *Stats Website*')
 st.write('MarioKart *Stats Website*')
+
+
+link = '[GitHub](http://github.com)'
+st.markdown(link, unsafe_allow_html=True)
+
 df_racer = pd.read_csv('data/racer_stats.csv')
 st.write(df_racer)
 st.dataframe(df_racer.style
